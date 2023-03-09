@@ -15,7 +15,7 @@ from esphome.core import TimePeriod
 AUTO_LOAD = ["binary_sensor"]
 DEPENDENCIES = ["esp32"]
 
-esp32_touch_ns = cg.esphome_ns.namespace("esp32_touch2")
+esp32_touch_ns = cg.esphome_ns.namespace("esp32_touch")
 ESP32TouchComponent = esp32_touch_ns.class_("ESP32TouchComponent", cg.Component)
 
 
